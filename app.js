@@ -21,7 +21,7 @@ const User=require('./models/user')
 const mongoSanitize = require('express-mongo-sanitize');
 const mongoDBStore=require('connect-mongo')(session)
 
-const dbUrl='mongodb://127.0.0.1:27017/yelp-camp'
+const dbUrl=process.env.DB_URL||'mongodb://127.0.0.1:27017/yelp-camp'
 
 
 mongoose.connect(dbUrl)
@@ -52,6 +52,7 @@ const store=new mongoDBStore({
 
 const sessionConfig={
     store,
+    name:'session',
     secret:'IamIronman',
     resave:false,
     saveUninitialized:true,
