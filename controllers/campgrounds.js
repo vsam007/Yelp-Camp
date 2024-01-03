@@ -60,6 +60,7 @@ module.exports.updateCamp=async(req,res)=>{
 module.exports.deleteCamp=async(req,res)=>{
     const {id}=req.params
     const foundCamp=await Campground.findByIdAndDelete(id)
+    req.flash('success','Successfully deleted')
     res.redirect('/campgrounds')
 }
 
