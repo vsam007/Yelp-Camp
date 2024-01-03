@@ -7,3 +7,12 @@
     width: 100%;
     height: 300px;
 }
+
+div {
+    font-family: 'Merriweather';
+    font-size: large;
+}
+
+h1 {
+    font-family: 'Merriweather';    
+}
