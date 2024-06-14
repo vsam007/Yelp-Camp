@@ -3,7 +3,7 @@ YelpCamp is a full-stack web application that allows users to create and review 
 
 **Features:**
 - Authentication:
- - User login and registration with password hashing.
+-- User login and registration with password hashing.
  - User profiles with the ability to edit user information.
 - Authorization:
  - Users can only edit or delete their own campgrounds and comments.
