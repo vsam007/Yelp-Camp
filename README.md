@@ -3,33 +3,33 @@ YelpCamp is a full-stack web application that allows users to create and review 
 
 **Features:**
 - Authentication:
--- User login and registration with password hashing.
- - User profiles with the ability to edit user information.
+  - User login and registration with password hashing.
+  - User profiles with the ability to edit user information.
 - Authorization:
- - Users can only edit or delete their own campgrounds and comments.
+  - Users can only edit or delete their own campgrounds and comments.
 - Campground Management:
- - Create, edit, and delete campgrounds.
- - Add descriptions, prices, and images to campgrounds.
- - View a list of all campgrounds and individual campground details.
+  - Create, edit, and delete campgrounds.
+  - Add descriptions, prices, and images to campgrounds.
+  - View a list of all campgrounds and individual campground details.
 - Comment System:
- - Add, edit, and delete comments on campgrounds.
- - Display user information alongside comments.
+  - Add, edit, and delete comments on campgrounds.
+  - Display user information alongside comments.
 - Map Integration:
- - Integrate with Mapbox to display campground locations on a map.
+  - Integrate with Mapbox to display campground locations on a map.
 - Responsive Design:
- - Ensure a seamless experience across desktop and mobile devices.
+  - Ensure a seamless experience across desktop and mobile devices.
 
-**Technologies Used**
+**Technologies Used:**
 - Frontend:
- - HTML5, CSS3, JavaScript
- - Bootstrap for responsive design
+  - HTML5, CSS3, JavaScript
+  - Bootstrap for responsive design
 - Backend:
- - Node.js, Express.js
+  - Node.js, Express.js
 - Database:
- - MongoDB, Mongoose
+  - MongoDB, Mongoose
 - Authentication:
- - Passport.js for authentication
+  - Passport.js for authentication
 - Others:
- - EJS for templating
- - Cloudinary for image upload and storage
- - Mapbox for maps and location services
+  - EJS for templating
+  - Cloudinary for image upload and storage
+  - Mapbox for maps and location services
